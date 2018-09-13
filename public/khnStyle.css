@@ -1,0 +1,232 @@
+/*--------------------------------------------------------------
+1.0 - FORM ELEMENTS
+--------------------------------------------------------------*/
+
+.view.neuro-editor form {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 500px;
+}
+
+.view.neuro-editor input[type="checkbox"],
+.view.neuro-editor input[type="radio"] {
+  background: rgba(191, 185, 169, .2);
+  height: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 16px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .44) inset, 0 1px 0 rgba(255, 255, 255, .54);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .44) inset, 0 1px 0 rgba(255, 255, 255, .54);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .44) inset, 0 1px 0 rgba(255, 255, 255, .54)
+}
+
+.view.neuro-editor input[type="checkbox"]:hover,
+.view.neuro-editor input[type="radio"]:hover {
+  background-color: rgba(191, 185, 169, .4)
+}
+
+.view.neuro-editor input[type="radio"] {
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px
+}
+
+.view.neuro-editor input[type="checkbox"]:checked {
+  background: rgba(191, 185, 169, .2) url(http://cameronbaney.com/codepen/creamy-ui/check.png) no-repeat center center;
+}
+
+.view.neuro-editor input[type="radio"]:checked {
+  background: rgba(191, 185, 169, .2) url(http://cameronbaney.com/codepen/creamy-ui/radio.png) no-repeat 3px center;
+}
+
+.view.neuro-editor input[type="range"] {
+  background: rgba(191, 185, 169, .2);
+  height: 8px;
+  width: 100%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .45) inset, 0 1px 0 rgba(255, 255, 255, .47);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .45) inset, 0 1px 0 rgba(255, 255, 255, .47);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .45) inset, 0 1px 0 rgba(255, 255, 255, .47);
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.view.neuro-editor input::-webkit-slider-thumb {
+  background: #fff center center;
+  border: 1px solid #909090;
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+.view.neuro-editor input::-webkit-slider-thumb:active {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+}
+
+.view.neuro-editor input[type="text"] {
+  border: 1px solid #aaa;
+  padding: 4px 8px;
+  width: calc(100% - 16px);
+  color: #000;
+  background-color: #fff;
+}
+
+.view.neuro-editor .form-control.input-sm {
+  border: 1px solid #aaa;
+  padding: 4px 4px;
+  width: calc(100%);
+}
+
+.view.neuro-editor input[type="text"]:disabled {
+  border: 0;
+  color: #888;
+  background-color: #eee;
+}
+
+/*--------------------------------------------------------------
+LAYOUTS
+--------------------------------------------------------------*/
+
+.neuro-editor-canvas,
+.neuro-editor-panel,
+.neuro-editor-game {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 36px;
+  bottom: 0;
+  max-height: calc(100% - 36px);
+}
+
+.neuro-editor-canvas {
+  left: 0;
+  width: calc(100% - 370px);
+  overflow: hidden;
+}
+
+.neuro-editor-panel {
+  right: 0;
+  width: calc(400px - 30px);
+  background-color: #eee;
+  overflow: auto;
+  padding: 15px;
+}
+
+.neuro-editor-game {
+  margin: 15px;
+}
+
+.neuro-editor-panel ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.panel-content {
+  padding: 10px 0;
+}
+
+.panel-row {
+  margin-bottom: 14px;
+}
+
+.panel-row label,
+.panel-row .panel-row-form {
+  display: inline-block;
+}
+
+.panel-row label {
+  width: calc(40% - 10px);
+  vertical-align: top;
+  padding-right: 10px;
+}
+
+.panel-row .panel-row-form {
+  width: 58%;
+}
+
+.panel h4 {
+  border-bottom: 1px solid #3d495a;
+  padding: 5px 0;
+  color: #444;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.panel-row.divider {
+  border-bottom: 1px solid rgba(61, 73, 90, 0.50);
+  content: "";
+  height: 1px;
+}
+
+/*--------------------------------------------------------------
+Panel Tab
+--------------------------------------------------------------*/
+
+.neuro-editor-panel .panel-tab-label {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #6db40d;
+  margin-left: -5px;
+  padding: 12px 12px;
+  cursor: pointer;
+}
+
+.neuro-editor-panel .panel-tab-label:hover {
+  background-color: #97de36;
+}
+
+.neuro-editor-panel li {
+  position: relative;
+  list-style: none;
+  /*cursor: pointer;*/
+  margin-bottom: 5px;
+}
+
+.neuro-editor-panel li.file {
+  margin-left: -6px !important;
+}
+
+.neuro-editor-panel li input.tab {
+  position: absolute;
+  cursor: pointer;
+  clip: rect(0, 0, 0, 0);
+  background: none;
+  border: none;
+  text-shadow: none;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.neuro-editor-panel li input.tab:after {
+  content: "";
+  padding: 10px;
+  position: absolute;
+  left: -10px;
+  top: -10px;
+}
+
+.neuro-editor-panel li input.tab~.panel-content {
+  display: none;
+}
+
+.neuro-editor-panel li input.tab:checked~.panel-content {
+  display: block;
+  height: auto;
+}

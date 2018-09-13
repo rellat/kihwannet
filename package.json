@@ -1,0 +1,21 @@
+{
+  "name": "khn-offline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./public -p 3000",
+    "build": "browserify ./src/index.js -o ./public/bundle.js",
+    "watch": "watchify ./src/index.js -o ./public/bundle.js",
+    "workerwatch": "watchify ./src/evolve.worker.js -o ./public/evolve.worker.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inherits": "^2.0.3",
+    "seedrandom": "^2.4.3",
+    "webworkify": "^1.5.0"
+  }
+}

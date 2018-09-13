@@ -1,0 +1,301 @@
+{
+  "nodes": [
+    {
+      "id": "1yt8fes0p4l",
+      "group": "0",
+      "x": 333,
+      "y": 293,
+      "bias": 0,
+      "sumofw": 0,
+      "actMethod": "identity",
+      "actvalue": 0
+    },
+    {
+      "id": "kz68n6x8yy",
+      "group": "0",
+      "x": 338,
+      "y": 422,
+      "bias": 0,
+      "sumofw": 0,
+      "actMethod": "identity",
+      "actvalue": 0
+    },
+    {
+      "id": "f0wd9u0g0yt",
+      "group": "0",
+      "x": 426,
+      "y": 291,
+      "bias": 0,
+      "sumofw": 0,
+      "actMethod": "identity",
+      "actvalue": 0
+    },
+    {
+      "id": "8u4a9j49fcx",
+      "group": "0",
+      "x": 430,
+      "y": 424,
+      "bias": 0,
+      "sumofw": 0,
+      "actMethod": "identity",
+      "actvalue": 0
+    },
+    {
+      "id": "3p2kcxmos0t",
+      "group": "0",
+      "x": 519,
+      "y": 284,
+      "bias": 0,
+      "sumofw": 0,
+      "actMethod": "identity",
+      "actvalue": 0
+    },
+    {
+      "id": "2vir65whe1u",
+      "group": "0",
+      "x": 529,
+      "y": 421,
+      "bias": 0,
+      "sumofw": 0,
+      "actMethod": "identity",
+      "actvalue": 0
+    },
+    {
+      "id": "nfxyy56pha",
+      "group": "0",
+      "x": 601,
+      "y": 278,
+      "bias": 0,
+      "sumofw": 0,
+      "actMethod": "identity",
+      "actvalue": 0
+    },
+    {
+      "id": "xiilh0uyld",
+      "group": "0",
+      "x": 621,
+      "y": 419,
+      "bias": 0,
+      "sumofw": 0,
+      "actMethod": "identity",
+      "actvalue": 0
+    },
+    {
+      "id": "21w1uk5vdnn",
+      "group": "0",
+      "x": 687,
+      "y": 285,
+      "bias": 0,
+      "sumofw": 0,
+      "actMethod": "identity",
+      "actvalue": 0
+    },
+    {
+      "id": "d8da9o2ec4d",
+      "group": "0",
+      "x": 701,
+      "y": 410,
+      "bias": 0,
+      "sumofw": 0,
+      "actMethod": "identity",
+      "actvalue": 0
+    },
+    {
+      "id": "8pozhx7tljd",
+      "group": "0",
+      "x": 779,
+      "y": 269,
+      "bias": 0,
+      "sumofw": 0,
+      "actMethod": "identity",
+      "actvalue": 0
+    },
+    {
+      "id": "g3qeau1m4e6",
+      "group": "0",
+      "x": 797,
+      "y": 396,
+      "bias": 0,
+      "sumofw": 0,
+      "actMethod": "identity",
+      "actvalue": 0
+    },
+    {
+      "id": "jp20feh7t8",
+      "group": "output",
+      "x": 883,
+      "y": 325,
+      "bias": 0,
+      "sumofw": 0,
+      "actMethod": "identity",
+      "actvalue": 0
+    },
+    {
+      "id": "psi3hp4njz8",
+      "group": "0",
+      "x": 238.66666666666663,
+      "y": 373.33333333333337,
+      "bias": "0",
+      "sumofw": 0,
+      "actMethod": "thresold",
+      "actvalue": 0
+    },
+    {
+      "id": "6azdl78pn0s",
+      "group": "0",
+      "x": 161.66666666666663,
+      "y": 296.33333333333337,
+      "bias": 0,
+      "sumofw": 0,
+      "actMethod": "identity",
+      "actvalue": 0
+    },
+    {
+      "id": "7d03v4wms5x",
+      "group": "0",
+      "x": 121.66666666666663,
+      "y": 367.33333333333337,
+      "bias": "1",
+      "sumofw": 0,
+      "actMethod": "identity",
+      "actvalue": 0
+    }
+  ],
+  "links": [
+    {
+      "source": "6azdl78pn0s",
+      "target": "psi3hp4njz8",
+      "value": "0.886"
+    },
+    {
+      "source": "psi3hp4njz8",
+      "target": "1yt8fes0p4l",
+      "value": "-0.441"
+    },
+    {
+      "source": "psi3hp4njz8",
+      "target": "kz68n6x8yy",
+      "value": "1.16"
+    },
+    {
+      "source": "1yt8fes0p4l",
+      "target": "8u4a9j49fcx",
+      "value": 0.498583427197589
+    },
+    {
+      "source": "kz68n6x8yy",
+      "target": "f0wd9u0g0yt",
+      "value": 1.4448965113759937
+    },
+    {
+      "source": "1yt8fes0p4l",
+      "target": "f0wd9u0g0yt",
+      "value": -0.9081448776862159
+    },
+    {
+      "source": "kz68n6x8yy",
+      "target": "8u4a9j49fcx",
+      "value": 0.4230581106063078
+    },
+    {
+      "source": "f0wd9u0g0yt",
+      "target": "3p2kcxmos0t",
+      "value": -1.4764678661074935
+    },
+    {
+      "source": "8u4a9j49fcx",
+      "target": "2vir65whe1u",
+      "value": 0.3377875289374535
+    },
+    {
+      "source": "f0wd9u0g0yt",
+      "target": "2vir65whe1u",
+      "value": -0.6450899597142055
+    },
+    {
+      "source": "8u4a9j49fcx",
+      "target": "3p2kcxmos0t",
+      "value": -0.17882511517739352
+    },
+    {
+      "source": "3p2kcxmos0t",
+      "target": "nfxyy56pha",
+      "value": -1.3806607879687587
+    },
+    {
+      "source": "2vir65whe1u",
+      "target": "xiilh0uyld",
+      "value": -0.8748079526986021
+    },
+    {
+      "source": "3p2kcxmos0t",
+      "target": "xiilh0uyld",
+      "value": 0.022606615025575594
+    },
+    {
+      "source": "2vir65whe1u",
+      "target": "nfxyy56pha",
+      "value": 0.3031328548743849
+    },
+    {
+      "source": "nfxyy56pha",
+      "target": "d8da9o2ec4d",
+      "value": -0.8654121501120466
+    },
+    {
+      "source": "xiilh0uyld",
+      "target": "21w1uk5vdnn",
+      "value": -0.8224705363970515
+    },
+    {
+      "source": "nfxyy56pha",
+      "target": "21w1uk5vdnn",
+      "value": 0.06881907760322181
+    },
+    {
+      "source": "xiilh0uyld",
+      "target": "d8da9o2ec4d",
+      "value": 1.1512763955197403
+    },
+    {
+      "source": "d8da9o2ec4d",
+      "target": "g3qeau1m4e6",
+      "value": 0.549343502766272
+    },
+    {
+      "source": "21w1uk5vdnn",
+      "target": "8pozhx7tljd",
+      "value": 2.0742898760275006
+    },
+    {
+      "source": "d8da9o2ec4d",
+      "target": "8pozhx7tljd",
+      "value": 0.5918912435791158
+    },
+    {
+      "source": "21w1uk5vdnn",
+      "target": "g3qeau1m4e6",
+      "value": -0.03087800939989388
+    },
+    {
+      "source": "8pozhx7tljd",
+      "target": "jp20feh7t8",
+      "value": -0.3685711973923167
+    },
+    {
+      "source": "g3qeau1m4e6",
+      "target": "jp20feh7t8",
+      "value": -0.014536285610109168
+    },
+    {
+      "source": "psi3hp4njz8",
+      "target": "6azdl78pn0s",
+      "value": "-0.694"
+    },
+    {
+      "source": "7d03v4wms5x",
+      "target": "psi3hp4njz8",
+      "value": "1.012"
+    }
+  ]
+}
