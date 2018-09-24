@@ -11,3 +11,5 @@ npm build
 npm start // starts local http server.
 ```
 requires browserify.
+
+Check on [gitpage](https://rellat.github.io/kihwannet/index.html)
