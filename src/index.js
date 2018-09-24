@@ -69,7 +69,6 @@ NeuroEditor.prototype.open = function () {
   var testnet = require('../data/tetris180502.json')
   // var testnet = require('../data/tetris180531.json')
   // var testnet = require('../data/d.json')
-
   self.evolve = new Evolve({})
   self.evolve.distribute({
     networkdata: testnet,
@@ -82,6 +81,16 @@ NeuroEditor.prototype.open = function () {
   self.evolve.on('result', function (data) {
     self.neuralNetwork.importAsJSON(data)
   })
+  self.neuroPanel.ifaceInputGame.value = 'tetris'
+  self.neuroPanel.ifaceInputGame.click()
+  // var testnet = require('../data/circle.json')
+  // testnet.links.forEach(element => {
+  //   var iv = Math.abs(element.value)
+  //   if (iv > 3) element.value = 3 * (element.value > 0 ? +1 : -1)
+  // })
+  // console.log('???' + JSON.stringify(testnet.links))
+  // // console.log('???' + testnet)
+  // self.neuralNetwork.importAsJSON(testnet)
 }
 
 window.onload = function () {

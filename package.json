@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server ./public -p 3000",
+    "start": "http-server . -p 3000",
     "build": "browserify ./src/index.js -o ./public/bundle.js",
     "watch": "watchify ./src/index.js -o ./public/bundle.js",
     "workerwatch": "watchify ./src/evolve.worker.js -o ./public/evolve.worker.js"
